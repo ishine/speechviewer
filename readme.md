@@ -5,7 +5,10 @@ A quick audio dataset viewer.
 <img src="image.jpg">
 
 ```shell
-npx speechviewer [dataset_path] [app_path]
+npx speechviewer [dataset_path] [db_path]
+
+# example
+npx speechviewer path/to/dataset/ app.db
 ```
 
 
