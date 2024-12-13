@@ -1,0 +1,60 @@
+{
+  "name": "speechviewer",
+  "version": "0.0.3",
+  "type": "module",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanghay/speechviewer.git"
+  },
+  "bin": {
+    "speechviewer": "server.js"
+  },
+  "files": [
+    "dist",
+    "server.js",
+    "api.js"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "prepublishOnly": "vite build"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "better-sqlite3": "^11.7.0",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "esbuild-plugin-react-virtualized": "^1.0.4",
+    "express": "^4.21.2",
+    "fast-glob": "^3.3.2",
+    "http-graceful-shutdown": "^3.1.13",
+    "knex": "^3.1.0",
+    "open": "^10.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.12.0",
+    "postcss": "^8.4.49",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.4.0",
+    "react-virtualized": "^9.22.5",
+    "tailwindcss": "^3.4.16",
+    "timeago-react": "^3.0.6",
+    "vite": "^6.0.1"
+  }
+}
