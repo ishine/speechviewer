@@ -2,6 +2,11 @@
 
 A quick audio dataset viewer.
 
+- ✅ Edit transcription
+- ✅ Virtual Scroll
+- ✅ SQLite Storage
+- ✅ Lightweight
+
 <img src="image.jpg">
 
 ```shell
